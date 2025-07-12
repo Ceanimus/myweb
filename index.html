@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Special Letter for Her</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+    <h2 style="color: violet;">To My Beautiful Girl</h2>
+</header>
+<main>
+    <section class="hero">
+        <h1>Open My Heart</h1>
+        <p>Click on the envelope to read my message for you</p>
+        <!-- Envelope image clickable -->
+        <img src="envelope.png" alt="Envelope" class="envelope" id="envelope" style="width:150px; cursor:pointer;">
+        <!-- Hidden message with animation -->
+        <div class="message" id="message">
+            <h3>My Dear Mami,</h3>
+            <p>Hi Mami una sa lahat sorry sa lahat ng nagawa ko, sa mga pagkakamali ko na napaparamdam ko sayo sana mapatawad moko mami pero kahit anong mangyare sa kada panibagong araw na dadaan lagi mong tatandaan na mahal na mahal kita hinding hindi na mag babago yung sorry po ulit sa lahat mahal na mahal kita mami ko. Ikaw padin gusto kong makasama hanggang sa pag tanda gawin lahat ng di pa natin nagagawa pumunta kung saan saan kumain kung saan saan mahal na mahal kita mami sorry po ulit</p>
+            <p>GoodMorning,<br>My Mami</p>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>I LOVE YOU TO THE MOON AND BACK💜🌷</p>
+</footer>
+
+<script>
+  // JavaScript to toggle message with animation
+  const envelope = document.getElementById('envelope');
+  const message = document.getElementById('message');
+
+  envelope.addEventListener('click', () => {
+    message.classList.toggle('show');
+  });
+</script>
+</body>
+</html>
